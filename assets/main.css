@@ -1,0 +1,83 @@
+.navbar-container {
+    /* background-image: url("~/assets/wave.svg"); */
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 90px;
+    background-size: contain;
+    padding-inline: 60px;
+    margin-bottom: 40px;
+    background-color: #f65578;
+    justify-content: start;
+    align-items: flex-start;
+  }
+  .footer{
+    background-image: url("~/assets/footer.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 20vh;
+    position: fixed;
+    bottom: 0;
+  }
+  .brand-name{
+      height: 10vh;
+      width: 20vh;
+  }
+  .transparent-button{
+      background-color: transparent;
+      color: #fff;
+      border: none;
+  }
+
+  /* BUTTONS */
+  .round-white-button{
+      border-radius: 200px;
+      background-color: #fff;
+      padding-inline: 30px;
+      color: #F65578;
+      height: 46px;
+      border: none;
+  } 
+  .round-pink-button{
+    border-radius: 200px;
+    background-color: #F65578;
+    padding-inline: 30px;
+    margin-left: 30px;
+    color: #fff;
+    height: 46px;
+    width: 220px;
+    border: none;
+  }
+
+  /* TEXT  */
+  .landing-text-black{
+    font-size: 10vh;
+    font-weight: bolder;
+  }
+  .landing-sub-text{
+    font-size: 3em;
+    font-weight:800;
+  }
+
+  /* COMTAINERS */
+  .listen-container {
+    background-image: url("~/assets/listen.svg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 56vh;
+    background-size:contain; 
+  }
+  .left-container{
+    position:relative;
+    float:right;
+    left:10%;
+  }
+  .landing-container { 
+    width: 100%;
+    height: 240px;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
